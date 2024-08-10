@@ -1,0 +1,78 @@
+
+.loader {
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(232, 242, 246);
+  position: relative;
+  display: flex;
+  top: 20%;
+  left:46%;
+}
+
+.loader::after {
+  content: "Radiation Shielding";
+  animation: ani 2500ms infinite;
+}
+
+@keyframes ani {
+  0%, 100% { content: "Radiation Shielding"; }
+  10% { content: "Radiation S"; }
+  20% { content: "Radiation Sh"; }
+  30% { content: "Radiation Shi"; }
+  40% { content: "Radiation Shiel"; }
+  50% { content: "Radiation Shield"; }
+  60% { content: "Radiation Shielding"; }
+  70% { content: "Radiation Shielding"; }
+  80% { content: "Radiation Shielding"; }
+  90% { content: "Radiation Shielding";}
+}
+
+
+.container {
+  position: relative;
+  height: 100%;
+  text-align: center; /* Center align text3 and text4 content */
+}
+.text1 {
+  position: absolute;
+  bottom: 380px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  font-size: 200px;
+  opacity: 0.9;
+  color: rgb(152, 116, 177);
+}
+.text2 {
+  color:white;
+  position: absolute;
+  bottom: 475px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  font-weight: bolder;
+ background-color: rgb(76,44,119);
+  font-family: 'Times New Roman';
+  font-size: 150px;
+}
+.text3 {
+  margin-top: 250px; /* Space between text2 and text3 */
+  font-size: 100px;
+  color:white;
+  display: inline-block;
+  bottom: 1000px;
+  font-family: 'Times New Roman';
+}
+.text4 {
+  margin-top: 20px; /* Space between text3 and text4 */
+  text-align: left;
+  font-size: 18px;
+  padding: 0 20px; /* Optional padding for readability */
+  height: 100%;
+  color:white;
+  
+
+
+}
+.i1{
+  height: 100vh;
+  width: 100vh;
+}
